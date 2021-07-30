@@ -5,7 +5,11 @@
     </head>
     <body>
         <h1>Index Page</h1>
+        <h3><%= message %></h3>
         <br>
+        <% for(var i = 0; i < name.length; i++){ %>
+        <li><%= name[i] %></li>
+        <% } %>
         <p>Index page running.</p>
     </body>
 </html>
